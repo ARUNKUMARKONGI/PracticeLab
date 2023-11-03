@@ -11,7 +11,6 @@ public class PredicateExample {
         names.add("Vivek");
         names.add("Anirudh");
 
-
         Predicate<String> p = name -> name.startsWith("A");
         List<String> filteredNames = filterNames(names, p);
         System.out.println("Names that start with 'A': " + filteredNames);
@@ -19,7 +18,6 @@ public class PredicateExample {
        /* String result = String.join(", ", filteredNames);
         System.out.println("Names that start with 'A': " + result);*/
     }
-
     public static List<String> filterNames(List<String> names, Predicate<String> condition) {
         List<String> filteredNames = new ArrayList<>();
         for (String name : names) {

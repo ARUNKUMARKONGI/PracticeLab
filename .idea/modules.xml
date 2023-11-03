@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PracticeLab.iml" filepath="$PROJECT_DIR$/PracticeLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExploreLearnExcel.iml" filepath="$PROJECT_DIR$/ExploreLearnExcel.iml" />
     </modules>
   </component>
 </project>
